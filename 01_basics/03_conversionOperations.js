@@ -100,11 +100,23 @@ let num1, num2, num3
 num1 = num2 = num3 = 5 + 3
 //this type of code must be avoided as it is not readable, it is not a good practice for writing a code
 */
-
+/*
+//increment and decrement operator
 let counter = 5000
 counter++ //postfix
 console.log(counter)
 ++counter //prefix
 console.log(counter)
+
+let x = 5n
+let y = x++ //assigns 5 to y then increments x, now x = 6n
+let z = ++x //first increments x from 6 to 7, then assigns to z
+console.log(`x: ${x}, y: ${y}, z: ${z}`)
+
+let a = 8
+let b = a-- //firstly assigns a to b, then decrements a, now a = 7
+let c = --a //firstly decrements a from 7 to 6, then assigns to c
+console.log(`a: ${a}, b: ${b}, c: ${c}`)
+*/
 
 //study the documentation from the website of ECMA Script, or the MDN
